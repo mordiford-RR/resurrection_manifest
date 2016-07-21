@@ -20,16 +20,13 @@
             - TvSettings
             - TvProvider
         - screensavers/
-            - Basic
             - PhotoTables
             - WebView
         - wallpapers/
-            - Basic
             - Galaxy4
             - HoloSpiral
             - NoiseField
             - PhaseBeam
-            - PhotoPhase
     - 手元で `hammerhead` 向けにビルドしようとしたらライブ壁紙周りでコケるので[適当に削ってください](https://github.com/obsidians/proprietary_vendor_lge_hammerhead/commit/212c2b91f4964570f77add2737f5a4a5ba21a8cb)
     - ブラウザ排除してますがCyanogen Browserこと `gello` は残してるので良さげなブラウザが最初から欲しい人はデバイスツリー側で `device.mk` にいい感じに以下追加してください
 

@@ -36,15 +36,15 @@
 
 <!-- BEGIN mordiford -->
   <project path="android" name="resurrection_manifest" remote="mordiford" revision="marshmallow" />
+  <project path="build" name="android_build" groups="pdk" remote="mordiford" revision="marshmallow" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="mordiford" revision="marshmallow" />
   <project path="packages/apps/Settings" name="Resurrection_packages_apps_Settings" groups="pdk-fs" remote="mordiford" revision="marshmallow" />
   <project path="vendor/cm" name="android_vendor_resurrection" remote="mordiford" revision="marshmallow" />
 <!-- END mordiford -->
 
 <!-- BEGIN RR -->
-  <project path="build" name="android_build" groups="pdk" remote="rr" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="rr"/>
   <project path="external/DUtils" name="external_DUtils" remote="rr" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="rr" />

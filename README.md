@@ -7,7 +7,7 @@
 - This Resository is `platform_manifest` for Modified Resurrection Remix(mordiford-RR)
     - Reduce download size
     - Removed: too old hardwares (like `omap`), unused devices (like `android emulator`), unused toolchains
-- Changed toolchain to [UBER ToolChain](https://bitbucket.org/DespairFactor/) 4.9
+- Changed toolchain to [UBER ToolChain](https://bitbucket.org/UBERTC/) 4.9
     - If your device has `arm64` chipset, you have to [set `KERNEL_TOOLCHAIN`]((https://github.com/mordiford/android_device_oneplus_oneplus2/commit/a65779f962056c02be4b8cd397ffd3c4458f12a1)) on `BoardConfig.mk`.
 - Removed these packages:
     - packages/
@@ -41,7 +41,7 @@ PRODUCT_PACKAGES += \
 - Read [https://github.com/ResurrectionRemix/platform_manifest#old-way-to-set-up-and-build-resurrection-remix](https://github.com/ResurrectionRemix/platform_manifest#old-way-to-set-up-and-build-resurrection-remix)
 
 ```
-repo init -u https://github.com/mordiford/resurrection_manifest.git -b marshmallow
+repo init -u https://github.com/mordiford/resurrection_manifest.git -b trusty
 ```
 
 ```

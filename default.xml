@@ -22,7 +22,7 @@
           revision="marshmallow" />
 
   <remote name="mordiford"
-          fetch="https://github.com/mordiford"
+          fetch="https://github.com/mordiford-RR"
           revision="marshmallow" />
 
   <remote name="bucket"

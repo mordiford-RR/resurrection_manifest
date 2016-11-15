@@ -41,7 +41,7 @@ PRODUCT_PACKAGES += \
 - Read [https://github.com/ResurrectionRemix/platform_manifest#old-way-to-set-up-and-build-resurrection-remix](https://github.com/ResurrectionRemix/platform_manifest#old-way-to-set-up-and-build-resurrection-remix)
 
 ```
-repo init -u https://github.com/mordiford/resurrection_manifest.git -b trusty
+repo init -u https://github.com/mordiford-RR/resurrection_manifest.git -b trusty
 ```
 
 ```
